@@ -1,0 +1,88 @@
+body{
+    background : url(../image/b3d59fad-d8a6-4bb3-a0d7-b5c9206a93e2\ \(1\).jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+    height: 100vh;
+    
+}
+.body{
+    display: flex;
+    justify-content: center; /*Căn giữa nội dung theo chiều ngang*/
+    align-items: center;/*Căn giữa nội dung theo chiều dọc*/
+    flex-direction: column; /* Đặt các phần tử con theo chiều dọc */
+    flex-wrap: wrap; /* Cho phép các phần tử con xuống dòng */
+    min-height: 50vh;
+    min-width: 100vh;
+    /* background : url(../image/b3d59fad-d8a6-4bb3-a0d7-b5c9206a93e2\ \(1\).jpg);
+    background-size: cover; */
+}
+.form {
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 650px;
+    background: white;
+    border-radius:10%;
+    padding: 30px 40px;
+}
+.form h2{
+    text-align: center;
+    font-size: 36px;
+    color: #35DD50;
+}
+.form .input-box{
+    width: 100%;
+    height: 100%;
+    margin: 30px 0;
+    align-self: center;
+}
+.input-box{
+    align-items: center;
+
+}
+.input-box input {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 40px ;
+    border: 2px solid black;
+    color:#000000 ;
+
+}
+.button1{
+    color: white;
+    font-size: 20px;
+    border-radius: 40px;
+    height: 40px;
+    width: 100%;
+    background-color: #35DD50;
+    border: 2px solid black ;
+    font-weight: bolder;
+}
+input::placeholder{
+    font-size: 16px;;
+}
+input{  
+    width: 100%;  
+    padding: 20px 20px; 
+    margin: 8px 0;  
+    box-sizing: border-box;}
+a{
+    color:#35DD50;
+}
+h1{
+    color:#35DD50; 
+    text-align: center;
+    font-size: 50px;
+    
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
